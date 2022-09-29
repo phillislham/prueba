@@ -46,4 +46,4 @@ jobs:
       with:        
         slot-name: 'producction'
         package: ${{ env.DOTNET_ROOT }}/webapp
-        publish-profile: ${{ secrets.WebAppPublishProfile }}
+        publish-profile: ${{ secrets.ACTIONS_USERNAME }}
